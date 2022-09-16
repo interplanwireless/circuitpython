@@ -12,7 +12,8 @@
 // <0x03=> Internal bandgap reference
 // <id> dac_arch_refsel
 #ifndef CONF_DAC_REFSEL
-#define CONF_DAC_REFSEL 0
+//#define CONF_DAC_REFSEL 0
+#define CONF_DAC_REFSEL 1//2022/09 interplan :VREF=VDDに設定
 #endif
 
 // <q> Differential mode
